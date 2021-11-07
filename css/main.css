@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2021, 2:21:45 PM
+    Author     : khairyl
+*/
+
+h2.header {
+    text-decoration: underline;
+}
+figure.figure{
+    display: inline-block;
+}
+figcaption.caption{
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+figure img {
+    border-style:double;
+    border-width:3px;
+    border-color:gray;
+    z-index: 1;
+}
+
+#footer{
+    font-style: italic;
+    color: gray;
+    text-align: center;
+    font-size: small;
+    border-top-style: solid;
+    padding-top: 10px;
+}
+
+.img-popup{
+    
+    z-index: 2;
+    position:relative;
+    height: auto;
+    width: auto;
+    bottom: 120px;
+    right: -100px;
+    
+}
+
+.big_img{
+    border: 5px solid gainsboro; 
+    box-shadow: 5px 5px 2px #aaaaaa;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    position: absolute; 
+}
+
+.processbtn{
+     margin-bottom:20px;
+}
+
+.container{
+    padding-bottom:10px;
+}
